@@ -1,0 +1,12 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Keep google-services.json out of version control if this were a real
+# public repo. It is included here as a placeholder for convenience.
