@@ -8,6 +8,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: LiveLocationTracker
+
     steps:
       - uses: actions/checkout@v4
 
@@ -27,4 +31,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: LiveLocationTracker/app/build/outputs/apk/debug/app-debug.apk
